@@ -1,0 +1,11 @@
+version: '3'
+services:
+    web:
+      build: 'nginx-lb/Dockerfile'
+
+    app:
+      build: 'flask-app/Dockerfile'
+
+    db:
+      build: 'db/Dockerfile'
+
